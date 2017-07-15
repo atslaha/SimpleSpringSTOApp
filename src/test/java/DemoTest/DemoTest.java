@@ -13,5 +13,11 @@ public class DemoTest {
         Demo demo = new Demo();
         assertTrue(demo.getBool());
     }
+    
+    @Test
+    public void shouldReturnTrue1(){
+        Demo demo = new Demo();
+        assertTrue(demo.getBool2());
+    }
 
 }
