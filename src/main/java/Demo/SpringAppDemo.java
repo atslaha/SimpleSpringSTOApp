@@ -8,6 +8,8 @@ import il.co.ssstoapp.classes.UserJack;
 public class SpringAppDemo {
 
     public static void main(String[] args) {
+        // UserJack object is creating and calling the goToServiceStation method.
+        
         ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         
         Object obj = context.getBean("userJack");
