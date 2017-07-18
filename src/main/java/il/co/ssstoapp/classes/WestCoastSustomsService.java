@@ -4,6 +4,8 @@ package il.co.ssstoapp.classes;
 import il.co.ssstoapp.interfaces.ServiceStation;
 
 public class WestCoastSustomsService implements ServiceStation {
+    
+    public WestCoastSustomsService() {}
 
     @Override
     public void takeAnOrder() {

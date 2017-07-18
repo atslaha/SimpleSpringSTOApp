@@ -12,6 +12,8 @@ import il.co.ssstoapp.interfaces.User;
  *
  */
 public class UserJack implements User {
+    
+    public UserJack() {}
 
     @Override
     public void goToServiceStation() {
@@ -21,7 +23,7 @@ public class UserJack implements User {
 
     @Override
     public void payTheBill() {
-        // TODO Auto-generated method stub
+        System.out.println("I've paid the bill!");
 
     }
 

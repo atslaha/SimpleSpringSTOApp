@@ -2,7 +2,9 @@ package il.co.ssstoapp.classes;
 
 import il.co.ssstoapp.interfaces.Service;
 
-public class ServiseChangeTyres implements Service {
+public class ServiceChangeTyres implements Service {
+    
+    public ServiceChangeTyres() {}
 
     @Override
     public void startService() {
